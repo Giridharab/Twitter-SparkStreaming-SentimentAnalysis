@@ -10,11 +10,11 @@ Sentiment Analysis is the process of determining whether a piece of writing is p
 
 Sentiment Analysis answers to questions like below:
 
-1) How do your customers feel about your brand?
+  How do your customers feel about your brand?
 
-2) What is the opinion about your brand against your competitors?
+  What is the opinion about your brand against your competitors?
 
-3) What are the latest trends related to your brand?
+  What are the latest trends related to your brand?
 
 
 Need more information about sentiment click below URL
@@ -25,9 +25,65 @@ https://www.lexalytics.com/technology/sentiment
 
 ## Goal
 
-• The goal is to show users sentiment analysis based on given trending topics while running the application. Application collects tweets from trending 
-  to topics, creates a pipeline for sentiment and emotion analysis and finally displays results of the sentiment analysis in a dashboard.
+• The goal is to show users sentiment analysis results based on given trending topics while running the application. 
 
+• The project was developed using Twitter 4j, Spark Streaming(Scala), Redis, Java Swing
+
+</br>
+
+## Architecture
+
+Application streams data from twitter using Spark Streaming and then sends them t
+
+another layer with spark lib which does classification
+
+which is an machine learning module
+
+Application collects tweets from trending topics, creates a pipeline for sentiment and emotion analysis and finally displays results of the sentiment analysis in a dashboard.
+
+</br>
+
+## Technology stack
+
+![alt text](https://github.com/RepakaRamateja/Twitter-SparkStreaming-SentimentAnalysis/blob/master/images/stack.png)
+
+
+</br>    
+
+
+<table>
+<thead>
+<tr>
+<th>Area</th>
+<th>Technology</th>
+</tr>
+</thead>
+<tbody>
+    <tr>
+        <td>Front-End</td>
+        <td> Java swing </td>
+    </tr>
+    <tr>
+        <td>Cluster Computing Framework</td>
+        <td>Apache Spark Streaming using Scala (extension of the core Spark API) </td>
+    </tr>
+    <tr>
+        <td>Machine learning library</td>
+        <td>MLlib (Apache Spark's scalable machine learning library) </td>
+    </tr>
+    <tr>
+
+        <td>In-Memory Caching / Datastore</td>
+        <td>Redis</td>
+    </tr>
+    <tr>
+        <td>Other APIs Used</td>
+        <td>Twitter streaming using Twitter 4j api</td>
+    </tr>
+</tbody>
+</table>
+
+</br>   
 
 ## Use Cases
 
