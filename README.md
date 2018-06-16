@@ -41,7 +41,8 @@ https://www.lexalytics.com/technology/sentiment
 
 ## Goal
 
-The goal is to show users sentiment analysis based on given trending topics while running the application. Application collects tweets from trending topics ,creates a pipeline for sentiment and emotion analysis and finally displays results of the sentiment analysis in a dashboard.
+• The goal is to show users sentiment analysis based on given trending topics while running the application. Application collects tweets from trending 
+  to topics, creates a pipeline for sentiment and emotion analysis and finally displays results of the sentiment analysis in a dashboard.
 
 
 
