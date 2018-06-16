@@ -127,23 +127,39 @@ https://www.youtube.com/watch?v=SFJsuo2XISs
 
 start the redis server 
 
+Command:
+
 redis-server
+
 
 start the redis client
 
+Command:
+
 redis-cli
+
 
 subscribe to channel tweet_results
 
+Command:
+
 SUBSCRIBE tweet_results
+
+
 
 Navigate to the folder twitterstream-sent-app 
 
 clean the package
 
+Command:
+
 sbt clean package 
 
+
+
 submit spark job
+
+Command:
 
 spark-submit --packages org.apache.spark:spark-streaming-twitter_2.10:1.6.0,edu.stanford.nlp:stanford-corenlp:3.5.2,redis.clients:jedis:2.9.0 --jars ../stanford-corenlp-3.5.2-models.jar --class Main target/scala-2.10/twitter-streaming-and-sentiment-analysis-app_2.10-1.0.jar trending topic name
 
@@ -158,6 +174,8 @@ import the project(twitter-analysis-dashboard) into netbeans or eclipse
 then clean and build the application
 
 Finally execute the below command to view the dashboard by navigating to folder witter-analysis-dashboard
+
+Command:
 
 java -jar target/twitter-analysis-dashboard-1.0-SNAPSHOT.jar
 
