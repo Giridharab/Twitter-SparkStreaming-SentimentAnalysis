@@ -121,6 +121,8 @@ Watch the below video for more information
 
 https://www.youtube.com/watch?v=SFJsuo2XISs
 
+Similarly add redis to the path as well
+
 </br>
 
 ## Execution Instructions
@@ -183,6 +185,38 @@ java -jar target/twitter-analysis-dashboard-1.0-SNAPSHOT.jar
 </br>
 
 ## Screen shots
+
+Redis messages recieved from Mllib layer
+
+![alt text](https://github.com/RepakaRamateja/Twitter-SparkStreaming-SentimentAnalysis/blob/master/images/redisresults.png)
+
+</br>
+
+Negative sentiments in dashboard
+
+![alt text](https://github.com/RepakaRamateja/Twitter-SparkStreaming-SentimentAnalysis/blob/master/images/negative.png)
+
+</br>
+
+Neutral and Negative sentiments but not positive
+
+![alt text](https://github.com/RepakaRamateja/Twitter-SparkStreaming-SentimentAnalysis/blob/master/images/nopostive.png)
+
+</br>
+
+Postive sentiments 
+
+![alt text](https://github.com/RepakaRamateja/Twitter-SparkStreaming-SentimentAnalysis/blob/master/images/positivestarted.png)
+
+</br>
+
+After some time
+
+![alt text](https://github.com/RepakaRamateja/Twitter-SparkStreaming-SentimentAnalysis/blob/master/images/best.png)
+
+![alt text](https://github.com/RepakaRamateja/Twitter-SparkStreaming-SentimentAnalysis/blob/master/images/final.png)
+
+</br>
 
 
 
