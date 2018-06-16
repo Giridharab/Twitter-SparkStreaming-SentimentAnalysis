@@ -131,21 +131,21 @@ start the redis server
 
 Command:
 
-redis-server
+    redis-server
 
 
 start the redis client
 
 Command:
 
-redis-cli
+    redis-cli
 
 
 subscribe to channel tweet_results
 
 Command:
 
-SUBSCRIBE tweet_results
+    SUBSCRIBE tweet_results
 
 
 
@@ -155,7 +155,7 @@ clean the package
 
 Command:
 
-sbt clean package 
+    sbt clean package 
 
 
 
@@ -163,7 +163,7 @@ submit spark job
 
 Command:
 
-spark-submit --packages org.apache.spark:spark-streaming-twitter_2.10:1.6.0,edu.stanford.nlp:stanford-corenlp:3.5.2,redis.clients:jedis:2.9.0 --jars ../stanford-corenlp-3.5.2-models.jar --class Main target/scala-2.10/twitter-streaming-and-sentiment-analysis-app_2.10-1.0.jar trending topic name
+    spark-submit --packages org.apache.spark:spark-streaming-twitter_2.10:1.6.0,edu.stanford.nlp:stanford-corenlp:3.5.2,redis.clients:jedis:2.9.0 --jars ../stanford-corenlp-3.5.2-models.jar --class Main target/scala-2.10/twitter-streaming-and-sentiment-analysis-app_2.10-1.0.jar trending topic name
 
 trending topic name can be any example cnn
 
@@ -179,7 +179,7 @@ Finally execute the below command to view the dashboard by navigating to folder 
 
 Command:
 
-java -jar target/twitter-analysis-dashboard-1.0-SNAPSHOT.jar
+    java -jar target/twitter-analysis-dashboard-1.0-SNAPSHOT.jar
 
 
 </br>
@@ -217,6 +217,8 @@ After some time
 ![alt text](https://github.com/RepakaRamateja/Twitter-SparkStreaming-SentimentAnalysis/blob/master/images/final.png)
 
 </br>
+
+## Further Enhancements
 
 
 
