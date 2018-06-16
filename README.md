@@ -25,8 +25,7 @@ https://www.lexalytics.com/technology/sentiment
 
 ## Goal
 
-• The goal of application is to analyse and visualize sentiment of tweets in real-time on given trending topics while running 
-  the application. 
+• The goal is to analyse and visualize sentiment of tweets in real-time on given trending topics while running the application. 
 
 • The project was developed using Twitter 4j, Spark Streaming(Scala), Redis, Java Swing
 
