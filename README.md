@@ -35,14 +35,13 @@ https://www.lexalytics.com/technology/sentiment
 
 ![alt text](https://github.com/RepakaRamateja/Twitter-SparkStreaming-SentimentAnalysis/blob/master/images/arch.png)
 
-Application streams data from twitter using Spark Streaming and then sends them t
 
-another layer with spark lib which does classification
+• Application streams data from twitter using Spark Streaming and then sends them to another layer which uses spark MLlib (machine learning module) and 
+  does classification machine learning module making use of broker redis to communicate with the dashboard (Java Swing application).
 
-which is an machine learning module
-
-Application collects tweets from trending topics, creates a pipeline for sentiment and emotion analysis and finally displays results of the sentiment analysis in a dashboard.
-
+• Application acts like a pipeline for sentiment and emotion analysis of real time tweets of trending topics and also having a extra capability of view 
+  the results of the sentiment analysis in a dashboard. 
+  
 </br>
 
 ## Technology stack
