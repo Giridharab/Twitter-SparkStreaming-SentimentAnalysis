@@ -33,6 +33,8 @@ https://www.lexalytics.com/technology/sentiment
 
 ## Architecture
 
+![alt text](https://github.com/RepakaRamateja/Twitter-SparkStreaming-SentimentAnalysis/blob/master/images/arch.png)
+
 Application streams data from twitter using Spark Streaming and then sends them t
 
 another layer with spark lib which does classification
