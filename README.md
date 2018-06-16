@@ -68,11 +68,10 @@ Application collects tweets from trending topics, creates a pipeline for sentime
         <td>Apache Spark Streaming using Scala (extension of the core Spark API) </td>
     </tr>
     <tr>
-        <td>Machine learning library</td>
-        <td>MLlib (Apache Spark's scalable machine learning library) </td>
+        <td>Machine learning </td>
+        <td>MLlib library (Apache Spark's scalable machine learning library)</td>
     </tr>
     <tr>
-
         <td>In-Memory Caching / Datastore</td>
         <td>Redis</td>
     </tr>
