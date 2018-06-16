@@ -103,7 +103,7 @@ Sentiment Analysis can be applied to variety of Use cases:
 
 </br>
 
-## Prerequites
+## Setting up Environment
 
 </br>
 
