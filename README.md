@@ -220,6 +220,20 @@ After some time
 
 ## Further Enhancements
 
+we will persist the streamed data in data store from SparkStreaming
+
+Build the classifer models by using the persisted data in data store
+
+Now persist the model and look up the model when ml lib spark library starts up
+
+spark streaming will use that loaded model to classify live streams
+
+now positive negative and neutral sentiments are send to the message broker redis
+
+Finally Java swing application will be consuming that messages from redis and modify the dashboard real time.
+
+
+
 
 
 
