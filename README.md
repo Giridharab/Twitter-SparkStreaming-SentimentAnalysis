@@ -101,4 +101,72 @@ Sentiment Analysis can be applied to variety of Use cases:
 
 6) Discover how people feel about a particular topic
 
+</br>
+
+## Prerequites
+
+</br>
+
+Installation of Cloudera quickstart VM
+
+Redis Data Store
+
+Jar file stanford-corenlp-3.5.2-models.jar
+
+After downloading jar file place it in spark-twitter-sentiment-analysis
+
+Later Configuring Scala Runtime to Cloudera QuickStart VM
+
+Watch the below video for more information 
+
+https://www.youtube.com/watch?v=SFJsuo2XISs
+
+</br>
+
+## Execution Instructions
+
+start the redis server 
+
+redis-server
+
+start the redis client
+
+redis-cli
+
+subscribe to channel tweet_results
+
+SUBSCRIBE tweet_results
+
+Navigate to the folder twitterstream-sent-app 
+
+clean the package
+
+sbt clean package 
+
+submit spark job
+
+spark-submit --packages org.apache.spark:spark-streaming-twitter_2.10:1.6.0,edu.stanford.nlp:stanford-corenlp:3.5.2,redis.clients:jedis:2.9.0 --jars ../stanford-corenlp-3.5.2-models.jar --class Main target/scala-2.10/twitter-streaming-and-sentiment-analysis-app_2.10-1.0.jar trending topic name
+
+trending topic name can be any example cnn
+
+Now in the redis client screen you can see streaming sentiments in real time (please refer to Screen shots)
+
+clean and  build the dash board application 
+
+import the project(twitter-analysis-dashboard) into netbeans or eclipse 
+
+then clean and build the application
+
+Finally execute the below command to view the dashboard by navigating to folder witter-analysis-dashboard
+
+java -jar target/twitter-analysis-dashboard-1.0-SNAPSHOT.jar
+
+
+</br>
+
+## Screen shots
+
+
+
+
 
