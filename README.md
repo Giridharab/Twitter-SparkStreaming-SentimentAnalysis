@@ -1,6 +1,6 @@
 # Twitter-SparkStreaming-SentimentAnalysis
 
-Real time twitter sentiment analysis application built using Twitter | Spark Streaming | Redis | Java Swing
+Real time streaming twitter sentiment analysis application built using Twitter | Spark Streaming | Redis | Java Swing
 
 </br>
 
