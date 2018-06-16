@@ -25,7 +25,7 @@ https://www.lexalytics.com/technology/sentiment
 
 ## Goal
 
-• The goal is to show users sentiment analysis results based on given trending topics. 
+• The goal is to show users sentiment analysis results based on given trending topics while running the application. 
 
 • The project was developed using Twitter 4j, Spark Streaming(Scala), Redis, Java Swing
 
